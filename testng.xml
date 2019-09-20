@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TownscriptSuite">
+	<test name="testngTest">
+		<classes>
+			<class name="com.qa.tests.SampleTest" />
+		</classes>
+	</test>
+</suite>
