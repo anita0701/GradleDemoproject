@@ -30,14 +30,6 @@ dependencies {
        
 }
 
-task message{
 
-println "hello world"
-}
-
-test {
-useTestNG(){
-suites 'testng.xml'
-}
 
 }
