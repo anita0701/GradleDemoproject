@@ -9,13 +9,13 @@ import org.testng.annotations.Test;
 
 public class SampleTest {
 	
-	public static final String JENKINS_BUILD_PATH = "/var/lib/jenkins/workspace/GradleDemoProject/";
+	//public static final String JENKINS_BUILD_PATH = "/var/lib/jenkins/workspace/GradleDemoProject/";
 	
 	@Test
 	public void googleTitleTest()
 	{
-		System.setProperty("webdriver.chrome.driver",JENKINS_BUILD_PATH+"drivers/chromedriver");
-		//System.setProperty("webdriver.chrome.driver","/home/anita/eclipse-workspace/GradleDemoProject/drivers/chromedriver");
+		//System.setProperty("webdriver.chrome.driver",JENKINS_BUILD_PATH+"drivers/chromedriver");
+		System.setProperty("webdriver.chrome.driver","/home/anita/eclipse-workspace/GradleDemoProject/drivers/chromedriver");
 
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://google.com");
